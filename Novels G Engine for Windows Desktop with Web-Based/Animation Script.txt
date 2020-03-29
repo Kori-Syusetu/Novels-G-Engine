@@ -1,0 +1,23 @@
+アニメーションスクリプトの説明
+
+・アニメーションスクリプトとは？
+　描画エンジンの一部として組み込まれています
+　このスクリプトは簡易版でも
+　他社様のモーフィングエンジンを利用することができます　（例:Live2D や E-mote）（注：バックグラウンドで該当エンジンを利用したアプリケーションを実行する必要があります）
+　軽量化する点ではこのスクリプト付属のエンジンの利用を推奨します（外部システムの出力映像にポイント演算をして再多重化しています）
+
+・・他社様のモーフィングエンジン利用時の注意事項
+・・・エンジン不正終了時の処理
+　　　他社様のエンジンを利用したバックグラウンドサービスが不正終了した場合「一時セーブデータスロット」に状態復元用データを保存しサービスの起動試行を行います
+　　　起動試行に失敗した場合は「ISTNアニメーションスクリプト 完全版」の利用を試みます
+・・・・パッケージ内に「アニメーションスクリプト 完全版」が存在しない場合
+　　　　エラーウインドウで
+　　　　エラー情報「istn.Animation.Script.Exception.OtherEngineCrashed」と
+　　　　エラーメッセージ「
+Full Version Animation Script is Not Found.
+Exception:Other Vendor's Engine Crashed. Engine Restarting Failed.
+Searching Full Version Script ...DONE
+Full System Data is Not Found.
+Novels 'G' Engine is Crashed.
+CRITICAL ERROR:NVGEngine Background Service "AnimationScript:PathMode:OtherEngine"
+」を出力し「一時セーブデータスロット」内の復元データを「セーブデータスロットRE???」(???は三桁の十進数表記の番号です)に保存して終了コード:[-1]で終了します

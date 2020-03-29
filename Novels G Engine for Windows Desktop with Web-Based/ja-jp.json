@@ -1,0 +1,579 @@
+﻿{
+  "dataver": {
+    "version": "1.00.00",
+    "resource-type": "language",
+    "resource-info": "ja-jp",
+    "resource-meta": {
+      "auther": "Kori Syusetu",
+      "date-created": "2020/03/28",
+      "file-version": "1.00.20032900",
+      "date-updated": "2020/03/29"
+    }
+  },
+  "translations": [
+    {
+      "trans-key": "core.title",
+      "trans-data": "Novels 'G' Engine"
+    },
+    {
+      "trans-key": "core.data",
+      "trans-data": "セーブデータ"
+    },
+    {
+      "trans-key": "core.data.save",
+      "trans-data": "セーブ"
+    },
+    {
+      "trans-key": "core.data.load",
+      "trans-data": "ロード"
+    },
+    {
+      "trans-key": "core.data.quick.save",
+      "trans-data": "クイックセーブ"
+    },
+    {
+      "trans-key": "core.data.quick.load",
+      "trans-data": "クイックロード"
+    },
+    {
+      "trans-key": "core.data.slot",
+      "trans-data": "セーブデータスロット"
+    },
+    {
+      "trans-key": "core.game.clearwindow",
+      "trans-data": "メッセージウインドウを隠す"
+    },
+    {
+      "trans-key": "core.game.next",
+      "trans-data": "進む"
+    },
+    {
+      "trans-key": "core.game.backlog",
+      "trans-data": "バックログ"
+    },
+    {
+      "trans-key": "core.game.sjump",
+      "trans-data": "シーンジャンプ"
+    },
+    {
+      "trans-key": "core.game.automode",
+      "trans-data": "自動送り"
+    },
+    {
+      "trans-key": "core.game.skipreaded",
+      "trans-data": "既読メッセージをスキップ"
+    },
+    {
+      "trans-key": "core.game.skippushed",
+      "trans-data": "メッセージを早送り"
+    },
+    {
+      "trans-key": "core.game.select.next",
+      "trans-data": "次の選択肢までスキップ"
+    },
+    {
+      "trans-key": "core.game.select.back",
+      "trans-data": "前の選択肢に戻る"
+    },
+    {
+      "trans-key": "core.settings",
+      "trans-data": "設定"
+    },
+    {
+      "trans-key": "core.settings.message.speed",
+      "trans-data": "メッセージスピード"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed",
+      "trans-data": "自動送り時のメッセージスピード"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.disp",
+      "trans-data": "自動送り時の表示速度"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.next",
+      "trans-data": "自動送り時の送り猶予"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.clickstop",
+      "trans-data": "クリックで自動送りを停止"
+    },
+    {
+      "trans-key": "core.settings.message.window.trans",
+      "trans-data": "メッセージウインドウの透明度"
+    },
+    {
+      "trans-key": "core.settings.message.window.style",
+      "trans-data": "メッセージウインドウのスタイル"
+    },
+    {
+      "trans-key": "core.settings.message.option",
+      "trans-data": "メッセージオプション"
+    },
+    {
+      "trans-key": "core.settings.message.option.font",
+      "trans-data": "メッセージフォント"
+    },
+    {
+      "trans-key": "core.settings.message.option.font.warn",
+      "trans-data": "情報：推奨フォントはNoto Sans CJK JPです。それ以外のフォントではラテン系・簡体字／繁体字・JIS第一・JIS第二水準漢字・ひらがな／カタカナ・および基本記号とCJK記号をサポートしているものを推奨します"
+    },
+    {
+      "trans-key": "core.settings.message.option.font.replace.reiwa",
+      "trans-data": "Unicode文字U+32FF[SQUARE ERA NAME REIWA]の画像置き換え表示を行う"
+    },
+    {
+      "trans-key": "core.settings.message.option.size",
+      "trans-data": "フォントサイズ"
+    },
+    {
+      "trans-key": "core.settings.message.option.color.foreground",
+      "trans-data": "前景色"
+    },
+    {
+      "trans-key": "core.settings.message.option.color.background",
+      "trans-data": "背景色"
+    },
+    {
+      "trans-key": "core.settings.message.option.color.accent",
+      "trans-data": "装飾色"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.monosp",
+      "trans-data": "等幅モード"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.antialiasing",
+      "trans-data": "文字のアンチエイリアス"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.ssaa",
+      "trans-data": "SSAA:スーパーサンプリング"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.msaa",
+      "trans-data": "MSAA:マルチサンプリング"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.iseb",
+      "trans-data": "ISEB:ISnow Technet 縁ぼかし演算"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.none",
+      "trans-data": "NONE:適用しない"
+    },
+    {
+      "trans-key": "core.settings.message.adult.automode",
+      "trans-data": "Hシーン時に自動的に自動送りを有効化する"
+    },
+    {
+      "trans-key": "core.settings.message",
+      "trans-data": "メッセージと文字"
+    },
+    {
+      "trans-key": "core.settings.screen",
+      "trans-data": "画面とディスプレイアダプタ"
+    },
+    {
+      "trans-key": "core.settings.screen.adapter",
+      "trans-data": "ディスプレイアダプタ"
+    },
+    {
+      "trans-key": "core.settings.screen.mode",
+      "trans-data": "画面モード"
+    },
+    {
+      "trans-key": "core.settings.screen.mode.fullsc",
+      "trans-data": "全画面"
+    },
+    {
+      "trans-key": "core.settings.screen.mode.window",
+      "trans-data": "ウインドウ"
+    },
+    {
+      "trans-key": "core.settings.screen.mode.vfullsc",
+      "trans-data": "仮想全画面"
+    },
+    {
+      "trans-key": "core.settings.screen.fps",
+      "trans-data": "垂直描画周波数"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.vsync",
+      "trans-data": "垂直走査周波数に同期"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.nolimit",
+      "trans-data": "垂直描画周波数を未制限にする"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth",
+      "trans-data": "色深度"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.fullc",
+      "trans-data": "8bit*3=24-bit Full Color"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.hiac",
+      "trans-data": "4bit*4=16-bit High Color"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.hic",
+      "trans-data": "4bit*3=12-bit High Color"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.efullc",
+      "trans-data": "8bit*4=32-bit Enhanced Full Color"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.enhancedc",
+      "trans-data": "16bit*4=64-bit Enhanced Range Color"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.reduction",
+      "trans-data": "残像軽減"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.bkframeins",
+      "trans-data": "2xFPS 黒フレーム補間"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.phylowloaddraw",
+      "trans-data": "物理描画負荷軽減表示"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.drawdiffdataonly",
+      "trans-data": "映像の更新範囲を差異がある場合の表現にする"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.effectwarn",
+      "trans-data": "該当の残像軽減方法では一部の映像効果が利用できなくなります。"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.none",
+      "trans-data": "残像軽減技術を利用しない"
+    },
+    {
+      "trans-key": "core.settings.screen.res.win",
+      "trans-data": "ウインドウサイズ"
+    },
+    {
+      "trans-key": "core.settings.screen.res.fsc",
+      "trans-data": "画面サイズ"
+    },
+    {
+      "trans-key": "core.settings.screen.res.canvas",
+      "trans-data": "事前描画エリア"
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.vram",
+      "trans-data": "事前描画機能"
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.enable",
+      "trans-data": "事前描画を有効化"
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.disable",
+      "trans-data": "事前描画を無効化"
+    },
+    {
+      "trans-key": "core.settings.effect",
+      "trans-data": "映像効果とISTN Animation Scriptの設定"
+    },
+    {
+      "trans-key": "core.settings.effect.movie",
+      "trans-data": "ムービーを動的生成"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.enable",
+      "trans-data": "動的生成を有効化"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.disable",
+      "trans-data": "動的生成を無効化"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.source",
+      "trans-data": "ムービーの代替ソース"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.networkmainserver",
+      "trans-data": "ネットワーク上のメインサーバー"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.networkmirrorserver",
+      "trans-data": "ネットワーク上のミラーサーバー"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.gameresources",
+      "trans-data": "ゲームのリソースデータ"
+    },
+    {
+      "trans-key": "core.settings.effect.openeffectsetup",
+      "trans-data": "映像効果の設定ウインドウを開く"
+    },
+    {
+      "trans-key": "core.settings.effect.istn.animation.script.setup",
+      "trans-data": "ISTN Animation Script設定ウインドウを開く"
+    },
+    {
+      "trans-key": "core.settings.effect.istn.animation.script.pathmode",
+      "trans-data": "ISTN Animation Script 橋渡しモード設定ウインドウを開く"
+    },
+    {
+      "trans-key": "core.settings.effect.lightweight",
+      "trans-data": "軽量演出モード"
+    },
+    {
+      "trans-key": "core.settings.effect.lightweight.notavailable",
+      "trans-data": "軽量演出モードはISTN Animation Scriptを通常モードで利用し開発されていた場合のみ利用可能です"
+    },
+    {
+      "trans-key": "core.settings.sound",
+      "trans-data": "音、声と音量"
+    },
+    {
+      "trans-key": "core.settings.sound.output",
+      "trans-data": "音声出力"
+    },
+    {
+      "trans-key": "core.settings.sound.output.disable",
+      "trans-data": "音声出力は無効です"
+    },
+    {
+      "trans-key": "core.settings.sound.output.defaultdev",
+      "trans-data": "既定のデバイスで音声出力します"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.master",
+      "trans-data": "マスター音量"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.background",
+      "trans-data": "BGM音量"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.soundeffect",
+      "trans-data": "SE音量"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.master",
+      "trans-data": "声：マスター音量"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.heroandheroine",
+      "trans-data": "声：主人公"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.otherfemale",
+      "trans-data": "声：モブキャラ系（女性）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.othermale",
+      "trans-data": "声：モブキャラ系（男性）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.othershemale",
+      "trans-data": "声：モブキャラ系（無性）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.otherrobotandai",
+      "trans-data": "声：ロボットと人工知能"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.female",
+      "trans-data": "声：女性（成人向けモード）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.male",
+      "trans-data": "声：男性（成人向けモード）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.shemale",
+      "trans-data": "声：間性・中性（成人向けモード）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.background",
+      "trans-data": "BGM音量（成人向けモード）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.soundeffect",
+      "trans-data": "SE音量（成人向けモード）"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.semodevoice",
+      "trans-data": "SEモードの喘ぎ声音量（成人向けモード）"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice",
+      "trans-data": "SEモードの喘ぎ声（成人向けモード）"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.levelone",
+      "trans-data": "Hシーンの開始から終了まで"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.leveltwo",
+      "trans-data": "該当キャラクターの声が再生されていない場合"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.levelthree",
+      "trans-data": "この機能を使用しない"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.scriptlevel",
+      "trans-data": "シナリオスクリプトに依存する"
+    },
+    {
+      "trans-key": "core.gallery",
+      "trans-data": "美術館"
+    },
+    {
+      "trans-key": "core.gallery.cgviewer",
+      "trans-data": "CG絵を見る"
+    },
+    {
+      "trans-key": "core.gallery.sdgviewer",
+      "trans-data": "SD絵を見る"
+    },
+    {
+      "trans-key": "core.gallery.scenereplay",
+      "trans-data": "シーン回想"
+    },
+    {
+      "trans-key": "core.gallery.charactergrpview",
+      "trans-data": "立ち絵と背景を見る"
+    },
+    {
+      "trans-key": "core.gallery.charactergrpview.subdata",
+      "trans-data": "差分"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer",
+      "trans-data": "音楽を聴く"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.play",
+      "trans-data": "再生"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.stop",
+      "trans-data": "停止"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.nexttrk",
+      "trans-data": "次のTrack"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.prevtrk",
+      "trans-data": "前のTrack"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.repeat",
+      "trans-data": "繰り返し"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.track",
+      "trans-data": "Track"
+    },
+    {
+      "trans-key": "core.gallery.unlock.adult",
+      "trans-data": "成人向けモードの内容を表示"
+    },
+    {
+      "trans-key": "core.userinterface.language",
+      "trans-data": "システム言語 / UserInterface Language"
+    },
+    {
+      "trans-key": "core.scenario.lang.pri",
+      "trans-data": "シナリオ基本言語 / Scenario Main Languahe"
+    },
+    {
+      "trans-key": "core.scenario.lang.sec",
+      "trans-data": "シナリオ副言語 / Scenario Sub Language"
+    },
+    {
+      "trans-key": "regional.lang.japanese",
+      "trans-data": "日本語 / Japanese"
+    },
+    {
+      "trans-key": "regional.lang.english.america",
+      "trans-data": "English (America Format) / 米国英語"
+    },
+    {
+      "trans-key": "regional.lang.english.england",
+      "trans-data": "English (England Format) / 英国英語"
+    },
+    {
+      "trans-key": "regional.lang.chinese.trad",
+      "trans-data": "正體中文 / 繁体字中国語"
+    },
+    {
+      "trans-key": "regional.lang.chinese.simp",
+      "trans-data": "简体中文 / 簡体字中国語"
+    },
+    {
+      "trans-key": "istn.animation.script.pathmode.name",
+      "trans-data": "モーフィングエンジンとの橋渡しとしてISTN Animation Scriptは互換橋渡しモードで稼働しています"
+    },
+    {
+      "trans-key": "istn.animation.script.path.emote.name",
+      "trans-data": "モーフィングエンジンとして 有限会社エムツー様の E-mote を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.path.live2d.name",
+      "trans-data": "モーフィングエンジンとして 株式会社Live2D様の Live2D を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.path.spine.name",
+      "trans-data": "モーフィングエンジンとして Esoteric Software LLC様の Spine を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.path.spritestudio.name",
+      "trans-data": "モーフィングエンジンとして 株式会社ウェブテクノロジ様の OPTPiX Sprite Studio を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.path.spriter.name",
+      "trans-data": "モーフィングエンジンとして BrashMonkey LLC様の Spriter を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.path.synfig.name",
+      "trans-data": "モーフィングエンジンとして OSSとして公開されている Synfig を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.path.dragonbones",
+      "trans-data": "モーフィングエンジンとして Egret Technology様の DragonBones を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.fullmode",
+      "trans-data": "モーフィングエンジンとして 上流のISnow Technetより ISTN Animation Script を搭載しています"
+    },
+    {
+      "trans-key": "istn.animation.script.breastshaking",
+      "trans-data": "胸の揺れ"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode",
+      "trans-data": "成人向けモード"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode.disable",
+      "trans-data": "無効（全年齢向けモード）"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode.enable",
+      "trans-data": "有効（成人向けモード）"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.sexualactivity.cganime",
+      "trans-data": "性行為中のCGにアニメーションを追加"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.screencapture",
+      "trans-data": "画面キャプチャ時の成人向けモード設定"
+    }
+  ]
+}

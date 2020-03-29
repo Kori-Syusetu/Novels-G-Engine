@@ -1,0 +1,579 @@
+﻿{
+  "dataver": {
+    "version": "1.00.00",
+    "resource-type": "language",
+    "resource-info": "en-us",
+    "resource-meta": {
+      "auther": "Kori Syusetu",
+      "date-created": "2020/03/28",
+      "file-version": "1.00.20032900",
+      "date-updated": "2020/03/29"
+    }
+  },
+  "translations": [
+    {
+      "trans-key": "core.title",
+      "trans-data": "Novels 'G'ame Engine"
+    },
+    {
+      "trans-key": "core.data",
+      "trans-data": "Save Data"
+    },
+    {
+      "trans-key": "core.data.save",
+      "trans-data": "Save Game"
+    },
+    {
+      "trans-key": "core.data.load",
+      "trans-data": "Load Data"
+    },
+    {
+      "trans-key": "core.data.quick.save",
+      "trans-data": "Quick Save"
+    },
+    {
+      "trans-key": "core.data.quick.load",
+      "trans-data": "Quick Load"
+    },
+    {
+      "trans-key": "core.data.slot",
+      "trans-data": "Save Data Slot"
+    },
+    {
+      "trans-key": "core.game.clearwindow",
+      "trans-data": "Hide HUD"
+    },
+    {
+      "trans-key": "core.game.next",
+      "trans-data": "[Next]"
+    },
+    {
+      "trans-key": "core.game.backlog",
+      "trans-data": "Message History"
+    },
+    {
+      "trans-key": "core.game.sjump",
+      "trans-data": "Scene Jump"
+    },
+    {
+      "trans-key": "core.game.automode",
+      "trans-data": "[Auto Mode]"
+    },
+    {
+      "trans-key": "core.game.skipreaded",
+      "trans-data": "[Skip read messages]"
+    },
+    {
+      "trans-key": "core.game.skippushed",
+      "trans-data": "[Skip (Button Pressed)]"
+    },
+    {
+      "trans-key": "core.game.select.next",
+      "trans-data": "Skip to Next Choices"
+    },
+    {
+      "trans-key": "core.game.select.back",
+      "trans-data": "Back to Previous Choices"
+    },
+    {
+      "trans-key": "core.settings",
+      "trans-data": "Game Settings"
+    },
+    {
+      "trans-key": "core.settings.message.speed",
+      "trans-data": "Message Speed"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed",
+      "trans-data": "Auto Mode Speed Settings"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.disp",
+      "trans-data": "Auto Mode Message Speed"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.next",
+      "trans-data": "Auto Mode Next Speed"
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.clickstop",
+      "trans-data": "Stop Auto Mode when Click"
+    },
+    {
+      "trans-key": "core.settings.message.window.trans",
+      "trans-data": "HUD Transparency"
+    },
+    {
+      "trans-key": "core.settings.message.window.style",
+      "trans-data": "HUD Style"
+    },
+    {
+      "trans-key": "core.settings.message.option",
+      "trans-data": "Experimental Message options"
+    },
+    {
+      "trans-key": "core.settings.message.option.font",
+      "trans-data": "[Advanced]Change Font"
+    },
+    {
+      "trans-key": "core.settings.message.option.font.warn",
+      "trans-data": "Info:Recommended Font is 'Noto Sans CJK JP'.\n if using other fonts then Recommend Latin,Trad/Simp Chinese,JIS 1st/2nd Level Kanji,Hiragana/Katakana,and Basic Symbols+CJK Symbols Supported Font."
+    },
+    {
+      "trans-key": "core.settings.message.option.font.replace.reiwa",
+      "trans-data": "Replace Unicode character u+32FF [SQUARE ERA NAME REIWA] to Picture Font"
+    },
+    {
+      "trans-key": "core.settings.message.option.size",
+      "trans-data": "[Advanced]Change Font size"
+    },
+    {
+      "trans-key": "core.settings.message.option.color.foreground",
+      "trans-data": "Pick Foreground Color"
+    },
+    {
+      "trans-key": "core.settings.message.option.color.background",
+      "trans-data": "Pick Background Color"
+    },
+    {
+      "trans-key": "core.settings.message.option.color.accent",
+      "trans-data": "Pick Accent Color"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.monosp",
+      "trans-data": "Force MonoSpace Display"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.antialiasing",
+      "trans-data": "Antialiasing Method"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.ssaa",
+      "trans-data": "SSAA:Super-Sample Anti-Aliasing"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.msaa",
+      "trans-data": "MSAA:Multi-Sample Anti-Aliasing"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.iseb",
+      "trans-data": "ISEB:ISnow Technet High Quality Edge Blur Anti-Aliasing"
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.none",
+      "trans-data": "NONE:Non Using Anti-Aliasing Method"
+    },
+    {
+      "trans-key": "core.settings.message.adult.automode",
+      "trans-data": "[Adult Mode]Auto Enabled 'Auto Mode'"
+    },
+    {
+      "trans-key": "core.settings.message",
+      "trans-data": "Messages and Texts"
+    },
+    {
+      "trans-key": "core.settings.screen",
+      "trans-data": "Display and Display Adapters"
+    },
+    {
+      "trans-key": "core.settings.screen.adapter",
+      "trans-data": "Display Adapter"
+    },
+    {
+      "trans-key": "core.settings.screen.mode",
+      "trans-data": "Screen Mode"
+    },
+    {
+      "trans-key": "core.settings.screen.mode.fullsc",
+      "trans-data": "Full Screen"
+    },
+    {
+      "trans-key": "core.settings.screen.mode.window",
+      "trans-data": "Window Mode"
+    },
+    {
+      "trans-key": "core.settings.screen.mode.vfullsc",
+      "trans-data": "Windowed Full Screen"
+    },
+    {
+      "trans-key": "core.settings.screen.fps",
+      "trans-data": "Frame rate"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.vsync",
+      "trans-data": "V-Sync Display"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.nolimit",
+      "trans-data": "FPS No Limit"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth",
+      "trans-data": "Color Mode"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.fullc",
+      "trans-data": "24-bit Full Color"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.hiac",
+      "trans-data": "16-bit High Color"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.hic",
+      "trans-data": "12-bit High Color without Alpha"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.efullc",
+      "trans-data": "32-bit Extended Full Color"
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.enhancedc",
+      "trans-data": "64-bit True Color"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.reduction",
+      "trans-data": "Afterimage Reduction"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.bkframeins",
+      "trans-data": "2xFPS and Insert Black Filled Frame"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.phylowloaddraw",
+      "trans-data": "Physics Low Load Draw"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.drawdiffdataonly",
+      "trans-data": "Different Detected to Refresh"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.effectwarn",
+      "trans-data": "Warn:if using afterimage reduction then Screen effect is Force Disabled"
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.none",
+      "trans-data": "Disable Afterimage Reduction"
+    },
+    {
+      "trans-key": "core.settings.screen.res.win",
+      "trans-data": "Window Size"
+    },
+    {
+      "trans-key": "core.settings.screen.res.fsc",
+      "trans-data": "Screen Size"
+    },
+    {
+      "trans-key": "core.settings.screen.res.canvas",
+      "trans-data": "Pre-Draw Canvas Size"
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.vram",
+      "trans-data": "Pre-Draw Feature"
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.enable",
+      "trans-data": "Pre-Draw Mode"
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.disable",
+      "trans-data": "Direct-Draw Mode"
+    },
+    {
+      "trans-key": "core.settings.effect",
+      "trans-data": "Animations and Effects"
+    },
+    {
+      "trans-key": "core.settings.effect.movie",
+      "trans-data": "Movie Dynamic Generation"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.enable",
+      "trans-data": "Enable Dynamic Generation"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.disable",
+      "trans-data": "Disable Dynamic Generation"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.source",
+      "trans-data": "Secondary Movie Sources"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.networkmainserver",
+      "trans-data": "Online Main Server"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.networkmirrorserver",
+      "trans-data": "Online Mirror Server"
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.gameresources",
+      "trans-data": "Game Package Resources"
+    },
+    {
+      "trans-key": "core.settings.effect.openeffectsetup",
+      "trans-data": "Open Effect Settings"
+    },
+    {
+      "trans-key": "core.settings.effect.istn.animation.script.setup",
+      "trans-data": "Open ISTN Animation Script Settings"
+    },
+    {
+      "trans-key": "core.settings.effect.istn.animation.script.pathmode",
+      "trans-data": "Open Path-Mode Animation Script Settings"
+    },
+    {
+      "trans-key": "core.settings.effect.lightweight",
+      "trans-data": "Light-Weight Rendering Mode"
+    },
+    {
+      "trans-key": "core.settings.effect.lightweight.notavailable",
+      "trans-data": "Light-Weight Mode is Un Available"
+    },
+    {
+      "trans-key": "core.settings.sound",
+      "trans-data": "Sound,Voice,and Sound Volume"
+    },
+    {
+      "trans-key": "core.settings.sound.output",
+      "trans-data": "Sound Output"
+    },
+    {
+      "trans-key": "core.settings.sound.output.disable",
+      "trans-data": "Sound Output is Disable"
+    },
+    {
+      "trans-key": "core.settings.sound.output.defaultdev",
+      "trans-data": "Output to Default Device"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.master",
+      "trans-data": "Master Volume"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.background",
+      "trans-data": "Background Musics Volmue"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.soundeffect",
+      "trans-data": "Sound Effects Volume"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.master",
+      "trans-data": "Voice Master Volume"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.heroandheroine",
+      "trans-data": "Hero and Heroine Voice"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.otherfemale",
+      "trans-data": "Other Female"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.othermale",
+      "trans-data": "Other Male"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.othershemale",
+      "trans-data": "Other Shemale"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.otherrobotandai",
+      "trans-data": "Robots and AI"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.female",
+      "trans-data": "[Adult Mode]Female"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.male",
+      "trans-data": "[Adult Mode]Male"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.shemale",
+      "trans-data": "[Adult Mode]Shemale"
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.background",
+      "trans-data": "[Adult Mode]BGM Vol."
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.soundeffect",
+      "trans-data": "[Adult Mode]SE Vol."
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.semodevoice",
+      "trans-data": "[Adult Mode]SE Mode Gasping Voice"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice",
+      "trans-data": "[Adult Mode]SE Mode Gasping Voice Options"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.levelone",
+      "trans-data": "Non Pause"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.leveltwo",
+      "trans-data": "Not Played Character's Voice"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.levelthree",
+      "trans-data": "Disable this Feature"
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.scriptlevel",
+      "trans-data": "Script Controlled"
+    },
+    {
+      "trans-key": "core.gallery",
+      "trans-data": "Gallery"
+    },
+    {
+      "trans-key": "core.gallery.cgviewer",
+      "trans-data": "Watch CG pictures"
+    },
+    {
+      "trans-key": "core.gallery.sdgviewer",
+      "trans-data": "Watch Chibi-Style pictures"
+    },
+    {
+      "trans-key": "core.gallery.scenereplay",
+      "trans-data": "Scene Recollection"
+    },
+    {
+      "trans-key": "core.gallery.charactergrpview",
+      "trans-data": "Watch the character illust and background"
+    },
+    {
+      "trans-key": "core.gallery.charactergrpview.subdata",
+      "trans-data": "Difference Image"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer",
+      "trans-data": "Listen music"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.play",
+      "trans-data": "Play"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.stop",
+      "trans-data": "Stop"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.nexttrk",
+      "trans-data": "Next Track"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.prevtrk",
+      "trans-data": "Prev Track"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.repeat",
+      "trans-data": "Repeat"
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.track",
+      "trans-data": "Track"
+    },
+    {
+      "trans-key": "core.gallery.unlock.adult",
+      "trans-data": "Display [Adult Mode] Contents"
+    },
+    {
+      "trans-key": "core.userinterface.language",
+      "trans-data": "UserInterface Language / システム言語"
+    },
+    {
+      "trans-key": "core.scenario.lang.pri",
+      "trans-data": "Scenario Main Language / シナリオ基本言語"
+    },
+    {
+      "trans-key": "core.scenario.lang.sec",
+      "trans-data": "Scenario Sub Language / シナリオ副言語"
+    },
+    {
+      "trans-key": "regional.lang.japanese",
+      "trans-data": "日本語 / Japanese"
+    },
+    {
+      "trans-key": "regional.lang.english.america",
+      "trans-data": "English (America Format) / 米国英語"
+    },
+    {
+      "trans-key": "regional.lang.english.england",
+      "trans-data": "English (England Format) / 英国英語"
+    },
+    {
+      "trans-key": "regional.lang.chinese.trad",
+      "trans-data": "正體中文 / 繁体字中国語"
+    },
+    {
+      "trans-key": "regional.lang.chinese.simp",
+      "trans-data": "简体中文 / 簡体字中国語"
+    },
+    {
+      "trans-key": "istn.animation.script.pathmode.name",
+      "trans-data": "Path to Animation Engine Mode"
+    },
+    {
+      "trans-key": "istn.animation.script.path.emote.name",
+      "trans-data": "Using E-mote by M2 Co., Ltd. for Animation Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.path.live2d.name",
+      "trans-data": "Using Live2D by Live2D Inc. for Animation Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.path.spine.name",
+      "trans-data": "Using Spine by Esoteric Software LLC for Animation Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.path.spritestudio.name",
+      "trans-data": "Using OPTPiX Sprite Studio by Web Technology Corp. Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.path.spriter.name",
+      "trans-data": "Using Spriter by BrashMonkey LLC for Animation Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.path.synfig.name",
+      "trans-data": "Using FLOSS - Synfig for Animation Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.path.dragonbones",
+      "trans-data": "Using DragonBones by Egret Technology for Animation Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.fullmode",
+      "trans-data": "Using ISTN Animation Script by ISnow Technet for Animation and Effect Engine"
+    },
+    {
+      "trans-key": "istn.animation.script.breastshaking",
+      "trans-data": "Breast Shaking"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode",
+      "trans-data": "Adult Mode"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode.disable",
+      "trans-data": "Disable [General Mode]"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode.enable",
+      "trans-data": "Enable [Adult Mode]"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.sexualactivity.cganime",
+      "trans-data": "[Adult Mode]Sexual Activity Animation"
+    },
+    {
+      "trans-key": "istn.animation.script.adult.screencapture",
+      "trans-data": "[Adult Mode]Screen Capture Options"
+    }
+  ]
+}

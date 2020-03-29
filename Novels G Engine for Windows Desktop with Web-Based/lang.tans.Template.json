@@ -1,0 +1,579 @@
+{
+  "dataver": {
+    "version": "1.00.00",
+    "resource-type": "language",
+    "resource-info": "ja-jp",
+    "resource-meta": {
+      "auther": "Kori Syusetu",
+      "date-created": "2020/03/28",
+      "file-version": "1.00.200328",
+      "date-updated": "2020/03/28"
+    }
+  },
+  "translations": [
+    {
+      "trans-key": "core.title",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.data",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.data.save",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.data.load",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.data.quick.save",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.data.quick.load",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.data.slot",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.clearwindow",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.next",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.backlog",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.sjump",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.automode",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.skipreaded",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.skippushed",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.select.next",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.game.select.back",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.speed",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.autospeed",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.disp",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.next",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.autospeed.clickstop",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.window.trans",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.window.style",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.font",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.font.warn",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.font.replace.reiwa",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.size",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.color.foreground",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.color.background",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.color.accent",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.monosp",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.antialiasing",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.ssaa",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.msaa",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.iseb",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.option.ex.aamode.none",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message.adult.automode",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.message",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.adapter",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.mode",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.mode.fullsc",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.mode.window",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.mode.vfullsc",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.vsync",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.nolimit",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.fullc",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.hiac",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.hic",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.efullc",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.color.depth.enhancedc",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.reduction",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.bkframeins",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.phylowloaddraw",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.drawdiffdataonly",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.effectwarn",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.fps.afterimage.none",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.res.win",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.res.fsc",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.res.canvas",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.vram",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.enable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.screen.canvas.disable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.movie",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.movie.enable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.movie.disable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.source",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.networkmainserver",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.networkmirrorserver",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.movie.secondary.gameresources",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.openeffectsetup",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.istn.animation.script.setup",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.istn.animation.script.pathmode",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.lightweight",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.effect.lightweight.notavailable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output.disable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output.defaultdev",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.master",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.background",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.soundeffect",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.master",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.heroandheroine",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.otherfemale",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.othermale",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.othershemale",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.voice.otherrobotandai",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.female",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.male",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.voice.shemale",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.background",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.soundeffect",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.volume.adult.semodevoice",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.levelone",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.leveltwo",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.levelthree",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.settings.sound.output.adult.semodevoice.scriptlevel",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.cgviewer",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.sdgviewer",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.scenereplay",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.charactergrpview",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.charactergrpview.subdata",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.soundplayer",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.play",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.stop",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.nexttrk",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.prevtrk",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.repeat",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.soundplayer.track",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.gallery.unlock.adult",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.userinterface.language",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.scenario.lang.pri",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "core.scenario.lang.sec",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "regional.lang.japanese",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "regional.lang.english.america",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "regional.lang.english.england",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "regional.lang.chinese.trad",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "regional.lang.chinese.simp",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.pathmode.name",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.path.emote.name",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.path.live2d.name",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.path.spine.name",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.path.spritestudio.name",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.path.spriter.name",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.path.synfig.name",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.path.dragonbones",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.fullmode",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.breastshaking",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode.disable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.adult.mode.enable",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.adult.sexualactivity.cganime",
+      "trans-data": ""
+    },
+    {
+      "trans-key": "istn.animation.script.adult.screencapture",
+      "trans-data": ""
+    }
+  ]
+}
