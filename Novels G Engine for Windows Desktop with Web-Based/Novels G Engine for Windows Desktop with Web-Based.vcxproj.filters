@@ -22,6 +22,9 @@
     <Filter Include="Readme">
       <UniqueIdentifier>{f0727596-9ca9-484a-ac64-a2646e1dbb39}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Readme\ISnow Technet Animation Script">
+      <UniqueIdentifier>{91efcf6a-4c03-4dc5-a379-8a37d7eb35d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -62,19 +65,19 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ja-jp.json">
+    <None Include="EngineRes\Translations\en-us.json">
       <Filter>リソース ファイル\EngineData\Translations</Filter>
     </None>
-    <None Include="en-us.json">
+    <None Include="EngineRes\Translations\ja-jp.json">
       <Filter>リソース ファイル\EngineData\Translations</Filter>
     </None>
-    <None Include="lang.tans.Template.json">
+    <None Include="EngineRes\Translations\lang.tans.Template.json">
       <Filter>リソース ファイル\EngineData\Translations</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Animation Script.txt">
-      <Filter>Readme</Filter>
+    <Text Include="Readmes\ISnow Technet Animation Script\Animation Script.txt">
+      <Filter>Readme\ISnow Technet Animation Script</Filter>
     </Text>
   </ItemGroup>
 </Project>

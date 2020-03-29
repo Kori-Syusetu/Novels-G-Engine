@@ -170,12 +170,12 @@
     <Image Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="en-us.json" />
-    <None Include="ja-jp.json" />
-    <None Include="lang.tans.Template.json" />
+    <None Include="EngineRes\Translations\en-us.json" />
+    <None Include="EngineRes\Translations\ja-jp.json" />
+    <None Include="EngineRes\Translations\lang.tans.Template.json" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Animation Script.txt" />
+    <Text Include="Readmes\ISnow Technet Animation Script\Animation Script.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
